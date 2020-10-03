@@ -1,0 +1,110 @@
+/*======================================
+ =Responsive Mobile-first Media Queries=
+========================================*/
+
+/*-------------max991px---------------*/
+
+@media screen and (min-width:0px)and (max-width:991px){
+	
+	.navbar-nav {
+		
+		border-top:1px solid #888;
+	}
+}
+
+/*-----------End max991px-----------*/
+
+/*----------- max768px -----------*/
+@media screen and (max-width:768px){
+	
+	
+}
+/*----------- End max768px -----------*/
+
+/*----------- max767px -----------*/
+@media screen and (max-width:767px){
+	
+	.user-box h1{
+		
+		font-size:40px;
+	}
+	
+	.user-box h2{
+		
+		font-size:25px;
+	}
+	
+	.about-content{
+		
+		margin-top:40px;
+	}
+}
+
+/*----------- End max767px -----------*/
+
+/*----------- max575px -----------*/
+@media screen and (max-width:575px){
+	
+	.owl-theme .owl-dots .owl-dot span{
+		
+		display:none;
+		
+	}	
+}
+/*----------- End max575px -----------*/
+
+
+/*----------- max480px -----------*/
+@media screen and (max-width:480px){
+	
+	.user-box h1{
+		
+		font-size:35px;
+	}
+	
+	.user-box h2{
+		
+		font-size:20px;
+	}
+	
+	.video-data h2{
+		
+		font-size:35px;
+	}
+}
+/*----------- End max480px -----------*/
+
+/*----------- max320px -----------*/
+@media screen and (max-width:320px){
+	
+	.user-box h1{
+		
+		font-size:30px;
+	}
+	
+	.user-box h2{
+		
+		font-size:16px;
+	}
+	
+	.video-data h2{
+		
+		font-size:22px;
+	}
+	
+	.section-header h2{
+		
+		font-size:22px;
+	}
+	
+	.contact-text h5,h6{
+	
+	font-size:13px;
+	}
+}
+/*----------- End max320px -----------*/
+
+/*======================================
+			The End
+========================================			
+*/

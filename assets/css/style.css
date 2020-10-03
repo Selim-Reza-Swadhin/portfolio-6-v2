@@ -1,0 +1,592 @@
+/* ------------------------
+
+Author:Urme Akter
+Author Uri:
+Template Name:Portfolio Template
+Version:1.0
+--------------------------------
+
+Table Of Contents
+
+	01. General css
+	02. Main Menu section
+	03. Hero section
+	04. About section
+	05. Service section
+	06. Portfolio section
+	07. Testimonial section
+	08. Counterup section
+	09. Contact section
+	10. Footer section
+	11. Scrollup section
+
+*/
+
+/*======================================
+			01. General css
+========================================
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800,900|Open+Sans:400,600,700,800');
+
+* {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+    margin:0;
+	padding:0;
+}
+
+
+body{
+	font-family:'Montserrat', sans-serif;
+	max-width:1920px;
+    margin:0 auto;
+}
+body, html{
+	 
+	font-family:'Montserrat', sans-serif;
+	height:100%;
+}
+
+a:focus,
+a:hover,
+a:active,
+a {
+	text-decoration:none;
+	outline:none;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+li {
+	list-style:none;
+}
+
+input,select,textarea,button{
+	outline:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	
+	color:#151515;
+	font-family:'Montserrat', sans-serif;
+	font-weight:normal;
+	letter-spacing:1px;
+	text-transform:capitalize;
+}
+
+p{
+	
+	color:#757575;
+	letter-spacing:1px;
+	font-family:sans-serif;
+	line-height:26px;
+	font-size:16px;
+}
+
+.section-padding{
+	padding:80px 0px;
+}
+
+.section-header{
+	
+	margin-bottom:30px;
+}
+.section-header h2{
+	
+	position:relative;
+	margin-bottom:40px;
+	padding-bottom:8px;
+	font-weight:600;
+	font-size:30px;
+	color:#151515;
+	text-transform:uppercase;
+	display: inline-block;
+	
+}
+.section-header h2:after{
+	
+	content: "";
+    background-color: #333;
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    top: 100%;
+    left: 0;
+}
+
+/*======================================
+			02. Main Menu section
+========================================
+*/
+
+.navbar-light .navbar-nav .active .nav-link{
+    color:#333 !important;
+	font-family:sans-serif;
+	letter-spacing:1px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#333;
+	font-family:sans-serif;
+	letter-spacing:1px;
+	text-transform:capitalize;
+	font-weight:bold;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#fc0;
+}
+
+nav li a.active {
+    
+    color: #fc0!important;
+    background-color:transparent;
+	transition:.7s;
+}
+
+.navbar-toggler-icon {
+    
+    background:transparent;
+}
+
+.navbar-light .navbar-toggler {
+    color:#000;
+	font-size:35px;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    outline: none;
+}
+/*======================================
+			03. Hero section
+========================================
+*/
+
+.hero-banner{
+	
+	background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../images/couterup.jpg)no-repeat;
+	height:100vh;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	display:flex;
+	
+	justify-content:center;
+	text-align:center;
+	flex-flow: column;
+}
+
+
+.user-box h1{
+	
+	color:#fff;
+	font-size:55px;
+	font-weight:600;
+}
+
+.user-box h1 span{
+	
+	color:#fc0;
+}
+
+.user-box h2{
+	
+	color:#fff;
+	font-size:30px;
+	font-weight:normal;
+}
+
+.banner-button a{
+	text-decoration:none;
+	color:#000;
+	background:#fff;
+	border-radius:0;
+	font-size:16px;
+	padding:8px 20px;
+	text-transform:uppercase;
+	font-family:'Montserrat', sans-serif;
+	
+	letter-spacing:2px;
+	transition:.7s;
+	-webkit-transition:.7s;
+	-moz-transition:.7s;
+	-ms-transition:.7s;
+	-o-transition:.7s;
+}
+
+.banner-button a:hover{
+	color:#fff;
+	background:#fc0;
+	border-radius:5px;
+	transition:.7s;
+	-webkit-transition:.7s;
+	-moz-transition:.7s;
+	-ms-transition:.7s;
+	-o-transition:.7s;
+}
+
+/*======================================
+			04. About section
+========================================
+*/
+
+.about-section{
+	
+	background:#fff;
+}
+
+.about-content p{
+	
+	font-size:15px;
+	text-align:justify;
+	font-family:sans-serif;
+}
+
+.about-content h3{
+	
+	font-size:25px;
+	color:#000;
+	margin-bottom:20px;
+	font-weight:500;
+}
+
+.more-button a{
+	
+	color:#fff;
+	background:#333;
+	font-family:sans-serif;
+	font-size:16px;
+	padding:12px 15px;
+	letter-spacing:1px;
+	transition:.7s;
+}
+
+.more-button a:hover{
+	
+	background:#fc0;
+	color:#fff;
+	transition:.7s;
+}
+
+.about-img>ul>li>img{
+	
+	box-shadow:-20px 20px 0px #333;
+}
+/*======================================
+			05. Service section
+========================================
+*/
+
+.service-section{
+	
+	background:#f5f5f5;
+}
+
+
+.service-data h4{
+	
+	margin-bottom:20px;
+	font-size:20px;
+	font-weight:600;
+}
+
+.service-icon i{
+	
+	font-size: 40px;
+    margin-bottom: 10px;
+    background: #fff;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    color: #1C1C1C;
+    line-height: 80px;
+	transition:.7s;
+}
+.service-icon i:hover{
+	
+	color:#fc0;
+	transition:.7s;
+}
+.service-item{
+	
+	background:#fff;
+	border-radius:5px;
+	padding:15px;
+	border: 1px solid #eee;
+	margin-bottom: 30px;
+}
+
+.service-item:hover{
+	
+	box-shadow: 0 12px 20px rgba(0,0,0,.15);
+	transition:.7s;
+}
+
+
+/*======================================
+		07. video section
+========================================
+*/
+.video{
+	
+	background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../images/vid1.jpg)no-repeat; 
+	height:300px;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	flex-flow: column;
+}
+
+.video-data h2{
+	
+	color:#fff;
+	font-size:40px;
+	font-family:sans-serif;
+	text-transform:uppercase;
+	font-weight:600;
+	
+}
+
+.video-data i{
+	
+	font-size:45px;
+	color:#fc0;
+	margin-top:25px;
+	transition:.7s;
+}
+
+.video-data i:hover{
+	
+	color:#fff;
+	transition:.7s;
+}
+
+/*======================================
+		08. Testimonial section
+========================================
+*/
+
+
+.testimonials-section{
+	
+	background:#fff;
+}
+
+.testi-item{
+	
+	width:100%;
+    height:100%;
+    background:#f5f5f5;
+    position: relative;
+	border-radius:5px;
+	padding:30px;  
+}
+
+.testi-item:before{
+	
+	content: "";
+    position: absolute;
+    top: 100%;
+	left: 20px;
+	border-top: 20px solid#f5f5f5;
+	border-top-color:#f5f5f5;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+
+.testi-item i{
+	
+	font-size:25px;
+	color:#151515;
+	margin:0px 15px;
+
+}
+.testi-item p{
+	text-align:justify;
+}
+.media-body h5{
+	
+	font-size:18px;
+	font-weight:500;
+	font-family:'Montserrat', sans-serif;
+	margin-top:20px;
+}
+
+.media-body p{
+	font-size:14px;
+	text-transform:capitalize;
+}
+
+/*======================================
+			09. Contact section
+========================================
+*/
+
+.contact-section{
+	
+	background:#F5F5F5;
+}
+
+.contact-text{
+	
+	font-size:16px;
+}
+.contact-item .contact-text{
+	
+	margin-left:80px;
+	
+}
+
+.contact-icon{
+	
+	float:left;
+	font-size:25px;
+	background:#fff;
+	color:#333;
+	width:60px;
+	height:60px;
+	line-height:60px;
+	border-radius:50%;
+	margin-bottom:30px;
+}
+
+
+input.form-control{
+	
+	border: none;
+	border-bottom: 2px solid#333;
+	background:transparent;
+	border-radius:0;
+	font-family:sans-serif;
+	letter-spacing:1px;
+}
+
+.form-control{
+	border: none;
+	border-bottom: 2px solid#333;
+	background:transparent;
+	border-radius:0;
+	font-family:sans-serif;
+	letter-spacing:1px;
+	
+}
+.form-control:focus {
+	background:transparent;
+	outline: 0;
+    box-shadow:none;
+	border-bottom: 2px solid#333;
+}
+
+.btn{
+	
+	color: #fff;
+    background:#333;
+    border-color:transparent;
+	border: 2px solid#333;
+	border-radius:0;
+	font-family:sans-serif;
+	letter-spacing:1px;
+	padding:8px 15px;
+	transition:.7s;
+	
+}
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn:hover{
+	background:transparent;
+	color:#333;
+	border: 2px solid#333;
+	transition:.7s;
+}
+/*======================================
+		10. Footer section
+========================================
+*/
+.footer{
+	
+	background: #333;
+	border-top: 1px solid #3C3A3A;
+}
+
+.footer-text p{
+	
+	font-family:sans-serif;
+	font-size:14px;
+}
+
+.social-icons p{
+	
+	font-size:25px;
+	border-bottom:1px solid#333;
+	padding-bottom:20px;
+	font-family:Montserrat, sans-serif;
+	font-weight:bold;
+}
+
+.social-icons i{
+	
+	background:rgba(117,117,117,.2);
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	border:1px solid rgba(117,117,117,.2);
+	line-height:30px;
+	color:#ffffff;
+	font-size:15px;
+	margin-right:12px;
+	margin-top:20px;
+	transition:.7s;
+}
+	
+.social-icons i:hover{
+	/*background:#fc0;*/
+	transition:.7s;
+}
+
+/*======================================
+			11. Scrollup section
+========================================
+*/
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    display: none;
+}
+
+.scrollup i{
+	font-size:25px;
+	background:#fc0;
+	color:#fff;
+	padding:5px;
+	
+}
+
+
+/*======================================
+			The End
+========================================			
+*/

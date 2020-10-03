@@ -1,0 +1,61 @@
+/*==============================================================
+                    Social Icon Start
+  ==============================================================*/
+
+
+.facebook:hover{
+    background:#3B5998;
+    color:#fff;
+    transition:.7s;
+    transform:rotate(360deg) scale(1.5);
+    padding: 0 5px;
+    border-radius:50%;
+}
+
+.twitter:hover{
+    background:#3a9fed;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.linkedin:hover{
+    background:#0060ad;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.google-plus:hover{
+    background:#DB4437;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.instagram:hover{
+    background:#E4405F;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.github:hover{
+    background:#444;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
+
+.pinterest:hover{
+    background:#F72322;
+    color:#fff;
+    transition:.7s;
+    border-radius:50%;
+    transform:rotate(360deg) scale(1.5);
+}
